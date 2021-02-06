@@ -28,12 +28,9 @@ public class AnimalManagement {
         System.out.println();
 
         System.out.println("- - - - - The same through method - - - - -");
-
-         public String anyAnimalSound(Object animal) {
-             animal.
-            return a;
-        }
-
     }
 
+    public String anyAnimalSound(Animal animal) {
+        return animal.doNoise();
+    }
 }
